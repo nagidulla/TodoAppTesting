@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-03T11:51:06 IST" name="Suite" finished-at="2023-01-03T11:51:20 IST" duration-ms="13173">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.LoginRunner@6e9175d8]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.MyTodoRunner@353352b6]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-01-03T11:51:06 IST" name="Login Test" finished-at="2023-01-03T11:51:13 IST" duration-ms="6282">
+      <class name="runner.LoginRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.LoginRunner@6e9175d8]" started-at="2023-01-03T11:51:07 IST" name="setUpClass" finished-at="2023-01-03T11:51:07 IST" duration-ms="299" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@21d03963]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.LoginRunner@6e9175d8]" started-at="2023-01-03T11:51:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-03T11:51:11 IST" duration-ms="4452" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login With Negative Scenarios"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.LoginRunner@6e9175d8]" started-at="2023-01-03T11:51:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-03T11:51:12 IST" duration-ms="5006" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login With positive Scenarios"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.LoginRunner@6e9175d8]" started-at="2023-01-03T11:51:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-03T11:51:12 IST" duration-ms="5642" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login With positive Scenarios"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.LoginRunner@6e9175d8]" started-at="2023-01-03T11:51:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-03T11:51:13 IST" duration-ms="5901" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login With Negative Scenarios"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.LoginRunner@6e9175d8]" started-at="2023-01-03T11:51:13 IST" name="tearDownClass" finished-at="2023-01-03T11:51:13 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.LoginRunner -->
+    </test> <!-- Login Test -->
+    <test started-at="2023-01-03T11:51:13 IST" name="Todo Test" finished-at="2023-01-03T11:51:20 IST" duration-ms="6864">
+      <class name="runner.MyTodoRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.MyTodoRunner@353352b6]" started-at="2023-01-03T11:51:13 IST" name="setUpClass" finished-at="2023-01-03T11:51:13 IST" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1f760b47]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.MyTodoRunner@353352b6]" started-at="2023-01-03T11:51:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-03T11:51:18 IST" duration-ms="5046" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["View Todos"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["List and View Todos"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.MyTodoRunner@353352b6]" started-at="2023-01-03T11:51:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-03T11:51:18 IST" duration-ms="4981" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Change Status of Todo"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["List and View Todos"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.MyTodoRunner@353352b6]" started-at="2023-01-03T11:51:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-03T11:51:19 IST" duration-ms="6618" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Change Status of Todo"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["List and View Todos"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.MyTodoRunner@353352b6]" started-at="2023-01-03T11:51:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-03T11:51:19 IST" duration-ms="6249" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["View Todos"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["List and View Todos"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.MyTodoRunner@353352b6]" started-at="2023-01-03T11:51:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-03T11:51:18 IST" duration-ms="5554" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Update Todo"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["List and View Todos"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.MyTodoRunner@353352b6]" started-at="2023-01-03T11:51:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-03T11:51:20 IST" duration-ms="6843" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Update Todo"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["List and View Todos"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.MyTodoRunner@353352b6]" started-at="2023-01-03T11:51:20 IST" name="tearDownClass" finished-at="2023-01-03T11:51:20 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.MyTodoRunner -->
+    </test> <!-- Todo Test -->
+  </suite> <!-- Suite -->
+</testng-results>
